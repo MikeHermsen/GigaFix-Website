@@ -6,6 +6,46 @@
 
 * /* These settings will be aplied over the full page */
 {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Removing the white margin for a cleaner look */
+    padding: 0; /* Removing the white spacing for a smoother look */
+    list-style: none; /* Removing list styles by default for a better look */
+    text-decoration: none; /* Removing text decoration by defualt */
+}
+
+.debug /* Debugging for now, remove after done */
+{
+    padding: 20000px;
+}
+
+header /* CSS For the HEADER */
+{ 
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    position: fixed; /* make it sticky/fixed */
+    top: 0; /* Stay on top */
+    height: 50px;
+    width: 100%;
+    background-color: var(--default-light-blue);
+}
+
+.media-icon-container /* For placing the media icons in the header tag */
+{
+    display: grid; 
+    grid-template-columns: auto auto auto auto; /* using grid for the objects */
+    background-color: var(--default-light-blue); /* making the background color the same as the header color */
+    height: 100%; 
+    width: 300px; 
+    margin: 0 0 0 5%; /* Adding some spacing on the left */
+}
+
+.media-icon-container a /* Styling the icons so they don't look terrible */
+{
+    color: #fff; 
+    font-size: 30px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.media-icon-container a:hover /* When hovering this style will make it glow */
+{
+    text-shadow: 0 0 10px #fff;
 }

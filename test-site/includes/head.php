@@ -1,10 +1,12 @@
+
     <!-- Visible content -->
     <title>GigaFix</title> <!-- Website title -->
     
     <!-- LINK Tags -->
     <link rel="stylesheet" type="text/css" href="styles/style.css" /> <!-- default style.css -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> <!-- default favicon -->
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <!-- META Tags -->
     <meta charset="utf-8" /> <!-- default charset, this will suport langauges symbols and chars -->
     <meta name="author" content="GigaFix" /> <!-- The Creator of the page --> 
@@ -21,4 +23,3 @@
     <meta property="og:image:height" content="300" /> <!-- The image height -->
     <meta property="og:image:alt" content="GigaFix banner, Keyboard image" /> <!-- The alt of the image -->
     <meta property="og:type" content="company" /> <!-- The filter for media to see what kind of catogorie this is -->
-    
