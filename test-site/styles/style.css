@@ -1,1 +1,11 @@
+:root /* Default vars */
+{
+    --default-light-blue: #2ebaeb;
+    --default-dark-blue: #0026ff;
+}
 
+* /* These settings will be aplied over the full page */
+{
+    margin: 0;
+    padding: 0;
+}

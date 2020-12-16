@@ -20,3 +20,12 @@ website	- test-site	-
 					| footer.php
 					| head.php
 					| header.php
+					
+					
+COLOR PALLET
+default dark-blue       | #0026ff
+defualt light-blue      | #2ebaeb
+defualt font            | ?
+defualt logo            | ?
+defualt Slogan          | ?
+
