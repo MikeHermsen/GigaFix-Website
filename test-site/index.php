@@ -13,7 +13,7 @@
     <!-- Including the header for the page -->
     <?php include_once "includes/header.php" ?>
 
-    <p style="padding-top: 5000px;">Debugging</p>
+    <p style="padding-top: 5000px;">Debugging</p> <!-- This tag should be removed and his only purpose is for debugging the header -->
 
     <!-- Put the scripts under here, this make the site from loading slower -->
     <script type="text/javascript" src="scripts/js/animations.js"></script> <!-- Script for smooth sliding the header up -->    
