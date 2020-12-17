@@ -30,7 +30,7 @@ header /* CSS For the HEADER */
 .media-icon-container /* For placing the media icons in the header tag */
 {
     display: grid; 
-    grid-template-columns: auto auto auto auto; /* using grid for the objects */
+    grid-template-columns: auto auto auto auto auto; /* using grid for the objects */
     background-color: var(--default-light-blue); /* making the background color the same as the header color */
     height: 100%; 
     width: 300px; 
