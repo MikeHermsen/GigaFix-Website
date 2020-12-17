@@ -13,10 +13,11 @@
     <!-- Including the header for the page -->
     <?php include_once "includes/header.php" ?>
 
-    <p class="debug"></p> <!-- This is used to test the navigation, remove after done -->
+    <p style="padding-top: 5000px;">Debugging</p>
 
-    <script type="text/javascript" src="scripts/js/animations.js"></script> <!-- Script for smooth sliding the header up -->
-    
+    <!-- Put the scripts under here, this make the site from loading slower -->
+    <script type="text/javascript" src="scripts/js/animations.js"></script> <!-- Script for smooth sliding the header up -->    
+
 </body>
 
 </html>

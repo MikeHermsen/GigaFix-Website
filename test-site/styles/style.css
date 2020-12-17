@@ -12,11 +12,6 @@
     text-decoration: none; /* Removing text decoration by defualt */
 }
 
-.debug /* Debugging for now, remove after done */
-{
-    padding: 20000px;
-}
-
 header /* CSS For the HEADER */
 { 
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
@@ -49,3 +44,6 @@ header /* CSS For the HEADER */
 {
     text-shadow: 0 0 10px #fff;
 }
+
+.header-logo /* The img on the header */ 
+{ float: right; }
