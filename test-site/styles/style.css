@@ -6,47 +6,47 @@
 
 * /* These settings will be aplied over the full page */
 {
-    margin: 0; /* Removing the white margin for a cleaner look */
-    padding: 0; /* Removing the white spacing for a smoother look */
-    list-style: none; /* Removing list styles by default for a better look */
-    text-decoration: none; /* Removing text decoration by defualt */
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    text-decoration: none; 
 }
 
 header /* CSS For the HEADER */
 { 
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
-    position: fixed; /* make it sticky/fixed */
-    top: 0; /* Stay on top */
-    height: 50px; /* The heigth of the header */
-    width: 100%; /* This will fill the width of the page */
-    background-color: var(--default-light-blue); /* Background color of the header */
+    position: fixed; 
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: var(--default-light-blue);
 }
 
 .media-icon-container /* For placing the media icons in the header tag */
 {
     display: grid; 
-    grid-template-columns: auto auto auto auto auto; /* using grid for the objects */
-    background-color: var(--default-light-blue); /* making the background color the same as the header color */
-    height: 100%; /* This will fillin the total hieght */
-    width: 200px; /* The width of the box in the header */
-    margin: 0 0 0 10%; /* Adding some spacing on the left */
+    grid-template-columns: auto auto auto auto auto; 
+    background-color: var(--default-light-blue);
+    height: 100%; 
+    width: 200px; 
+    margin: 0 0 0 10%; 
 }
 
 .media-icon-container a /* Styling the icons so they don't look terrible */
 {
-    color: #fff; /* The color of the icons */
-    font-size: 20px; /* The size of the icons */
-    margin: 15px 10px; /* Aligning the icons in the header */
-    text-align: center; /* Displaying icons in middle of the grid box */
+    color: #fff; 
+    font-size: 20px; 
+    margin: 15px 10px; 
+    text-align: center; 
 }
 
 .media-icon-container a:hover /* When hovering this style will make it glow */
 {
-    text-shadow: 0 0 10px #fff; /* Making the icon glow up when hovering over it */
+    text-shadow: 0 0 10px #fff; 
 }
 
-.header-logo /* The img on the header */ 
+.header-logo /* The img on the header, This will display on the right of the header */ 
 {  
-    float: right; /* Displaying the logo to the right of the website */
+    float: right; 
     margin: 0 10% 0 0;  
 }
