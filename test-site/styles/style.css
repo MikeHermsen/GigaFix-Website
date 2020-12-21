@@ -108,11 +108,6 @@ nav /* CSS for the NAVIGATION */
     animation-duration: 0.75s;
 }
 
-@keyframes createBorder { /* Animation for making the border-bottom apear */
-    from {border-bottom: 1px solid #00e0c600;} 
-    to {border-bottom: 1px solid #00e0c6;}
-}
-
 .active-nav-link /* Style for the current page link */
 {
     color: var(--default-green-blue);
@@ -125,6 +120,7 @@ nav /* CSS for the NAVIGATION */
 {
     background-color: var(--default-white);
     color: var(--default-black);
+    outline:none;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -173,18 +169,15 @@ nav /* CSS for the NAVIGATION */
     animation-duration: 0.75s;    
 }
 
-@keyframes fadeIn { /* Animation for making something fade in */
-    from {opacity: 0%;} 
-    to {opacity: 100%;}
-}
-
 section /* CSS For all the content */
 {
     width: 100%;
+    
 }
 
 .top-banner /* CSS For the top-banner */
 {
+    position: relative;
     text-align: center;
     width: 100%;
     height: 600px;
@@ -192,6 +185,7 @@ section /* CSS For all the content */
 
 .top-banner img
 {
+
     width: 100%;
     height: 100%;
 }
@@ -202,6 +196,106 @@ section /* CSS For all the content */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.banner-text h1
+{
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+    animation-name: flyIn;
+    animation-duration: 2s;
+}
+
+
+.banner-text a
+{
+    color: var(--default-white);
+    font-size: 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    background-color: var(--default-green-blue);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.banner-text a:hover
+{
+    color: var(--default-green-blue);
+    animation-name: fade-edges;
+    background-color: white;
+    animation-duration: 1s;
+}
+/* ALL KEY FRAMES */
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes createBorder 
+{ /* Animation for making the border-bottom apear */
+    from {border-bottom: 1px solid #00e0c600;} 
+    to {border-bottom: 1px solid #00e0c6;}
+}
+
+@keyframes createBorder 
+{ /* Animation for making the border-bottom apear */
+    from {border-bottom: 1px solid #00e0c600;} 
+    to {border-bottom: 1px solid #00e0c6;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeIn
+{ /* Animation for making something fade in */
+    from {opacity: 0%;} 
+    to {opacity: 100%;}
+}
+
+@keyframes fadeIn
+{ /* Animation for making something fade in */
+    from {opacity: 0%;} 
+    to {opacity: 100%;}
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes flyIn /* Making the banner text fly in */
+{
+    from { margin-top: -2000px; }
+    to {margin: none;}
+}
+
+@keyframes flyIn /* Making the banner text fly in */
+{
+    from { margin-top: -2000px; }
+    to {margin: none;}
+}
+
+ /* Chrome, Safari, Opera */
+ @-webkit-keyframes fade-edges /* Making the button change color at the homepage */ 
+ {
+    from 
+    {
+        color: white;
+        background-color: var(--default-green-blue);
+    }
+    to 
+    {
+        color: var(--default-green-blue);
+        background-color: var(--default-white);
+    }
+}
+
+
+@keyframes fade-edges /* Making the button change color at the homepage */ 
+{
+    from 
+    {
+        color: white;
+        background-color: var(--default-green-blue);
+    }
+    to 
+    {
+        color: var(--default-green-blue);
+        background-color: var(--default-white);
+    }
 }
 
 @media only screen and (max-width: 950px) /* This will prefent the page from disrubting when going under 950px */

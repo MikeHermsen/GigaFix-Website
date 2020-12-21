@@ -22,11 +22,24 @@
     
         <div>
             <div class="top-banner">
-                <img src="media/images/homepage-banner.png" alt="GigaFix Homepage banner" />
-                <div class="banner-text">Centered</div>
+                <img src="media/images/banner-img-3.jpeg" alt="GigaFix Homepage banner" />
+                <div class="banner-text">
+                    <h1>GigaFix Computer repair specialist</h1>
+                    <a href="#section-2" class="fa fa-arrow-down"></a>
+
+                </div>
             </div>
         </div>
-    
+        
+        <div id="section-2" class="content-containter">
+            <!-- Create an list that will show the content of all the pages and what there is to find on the website --> 
+        </div>
+
+        <div id="section-3" class="content-containter">
+            <div class="content-box">
+            <!-- Using grids to create an start of page with 3 section that tells about gigafix --> 
+        </div>
+
         <p style="padding-top: 5000px;">Debugging</p> <!-- This tag should be removed and his only purpose is for debugging the header -->
     
     <section>
