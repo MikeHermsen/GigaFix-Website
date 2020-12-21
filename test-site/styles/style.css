@@ -1,7 +1,12 @@
 :root /* Default vars */
 {
+    --default-green-blue: #00e0c6;
     --default-light-blue: #2ebaeb;
     --default-dark-blue: #0026ff;
+    --default-white: #fff;
+    --default-black: #282829;
+    --default-debug: Red;
+    --default-font: "media/fonts/roboto/RobotoCondensed-Regular.ttf";
 }
 
 * /* These settings will be aplied over the full page */
@@ -10,11 +15,13 @@
     padding: 0;
     list-style: none;
     text-decoration: none; 
+    font-family: var(--default-font);
 }
 
 header /* CSS For the HEADER */
 { 
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 999;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) to make it fancy */
     position: fixed; 
     top: 0;
     height: 50px;
@@ -29,10 +36,10 @@ header /* CSS For the HEADER */
     background-color: var(--default-light-blue);
     height: 100%; 
     width: 200px; 
-    margin: 0 0 0 10%; 
+    margin: 0 0 0 5%; 
 }
 
-.media-icon-container a /* Styling the icons so they don't look terrible */
+.fa /* Styling the icons so they don't look terrible */
 {
     color: #fff; 
     font-size: 20px; 
@@ -40,13 +47,167 @@ header /* CSS For the HEADER */
     text-align: center; 
 }
 
-.media-icon-container a:hover /* When hovering this style will make it glow */
+.fa:hover /* When hovering this style will make it glow */
 {
     text-shadow: 0 0 10px #fff; 
 }
 
-.header-logo /* The img on the header, This will display on the right of the header */ 
-{  
-    float: right; 
-    margin: 0 10% 0 0;  
+.phone-icon /* Changing the style of the phone icon to place it on the right position */
+{
+    margin: 15px 10% 0 0; 
+    float: right;
+}
+
+nav /* CSS for the NAVIGATION */
+{
+    transition: top 0.3s; /* Transition effect when sliding down (and up) to make it fancy */
+    height: 80px;
+    width: 100%;
+    background-color: var(--default-white);
+    position: fixed;
+    top: 50px;
+    z-index: 999;
+}
+
+.nav-logo /* logo in the navigation */
+{
+    margin: 12px 0 0 5%;
+    height: 60px;
+}
+
+.navigation-links-container /* Containter that contains all the page links */
+{
+    color: var(--default-black);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 550px;
+    float: right;
+    margin: 27.5px 9%;
+    font-size: 15px;
+    column-gap: 20px;
+    height: 100%;
+}
+
+.nav-link /* Applying to all header links */
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 60%;
+}
+
+.default-nav-link /* The style for the links that != to the current page */
+{
+    color: var(--default-black);
+}
+
+.default-nav-link:hover /* Hovering over the links will make them glow up */
+{
+    color: var(--default-green-blue);
+    border-bottom: 1px solid #00e0c6;
+    animation-name: createBorder;
+    animation-duration: 0.75s;
+}
+
+@keyframes createBorder { /* Animation for making the border-bottom apear */
+    from {border-bottom: 1px solid #00e0c600;} 
+    to {border-bottom: 1px solid #00e0c6;}
+}
+
+.active-nav-link /* Style for the current page link */
+{
+    color: var(--default-green-blue);
+    font-weight: lighter;
+    cursor: not-allowed;
+    border-bottom: 2px solid var(--default-green-blue);
+}
+
+.dropbtn /* Style for the dropdown menu */
+{
+    background-color: var(--default-white);
+    color: var(--default-black);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin: -15px -30px 0px -10px;
+}
+  
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+    
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: var(--default-green-blue);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -30px;
+}
+  
+.dropdown-content a 
+{
+    color: var(--default-white);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #00000000;
+    border-top: 1px solid #00000000;
+}
+
+
+  
+.dropdown-content a:hover
+{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 0.75s;    
+}
+
+@keyframes fadeIn { /* Animation for making something fade in */
+    from {opacity: 0%;} 
+    to {opacity: 100%;}
+}
+
+section /* CSS For all the content */
+{
+    width: 100%;
+}
+
+.top-banner /* CSS For the top-banner */
+{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+.top-banner img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-text 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 950px) /* This will prefent the page from disrubting when going under 950px */
+{
+    * /* Only for debugging, Remove when done */
+    {
+      display: none;
+    }
 }

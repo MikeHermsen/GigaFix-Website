@@ -23,6 +23,7 @@
     <meta name="author" content="GigaFix" /> 
     <meta name="description" content="Computer reparatie GigaFix is er om u de beste service te geven voor de laagste prijs." /> 
     <meta property="image" content="media/images/default/og-image.jpg" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- MEDIA META Tags -->
     <meta property="og:title" content="GigaFix Computer Specialist"> 
