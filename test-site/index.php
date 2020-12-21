@@ -24,6 +24,7 @@
             <div class="top-banner">
                 <img src="media/images/banner-img-3.jpeg" alt="GigaFix Homepage banner" />
                 <div class="banner-text">
+                    
                     <h1>GigaFix Computer repair specialist</h1>
                     <a href="#section-2" class="fa fa-arrow-down"></a>
 

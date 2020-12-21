@@ -24,7 +24,7 @@ header /* CSS For the HEADER */
     transition: top 0.3s; /* Transition effect when sliding down (and up) to make it fancy */
     position: fixed; 
     top: 0;
-    height: 50px;
+    height: 8.7vh;
     width: 100%;
     background-color: var(--default-light-blue);
 }
@@ -43,7 +43,7 @@ header /* CSS For the HEADER */
 {
     color: #fff; 
     font-size: 20px; 
-    margin: 15px 10px; 
+    margin: 2.6vh 2vh; 
     text-align: center; 
 }
 
@@ -54,18 +54,18 @@ header /* CSS For the HEADER */
 
 .phone-icon /* Changing the style of the phone icon to place it on the right position */
 {
-    margin: 15px 10% 0 0; 
+    margin: 2.5vh 10% 0 0; 
     float: right;
 }
 
 nav /* CSS for the NAVIGATION */
 {
     transition: top 0.3s; /* Transition effect when sliding down (and up) to make it fancy */
-    height: 80px;
+    height: 15vh;
     width: 100%;
     background-color: var(--default-white);
     position: fixed;
-    top: 50px;
+    top: 8vh;
     z-index: 999;
 }
 
@@ -82,7 +82,7 @@ nav /* CSS for the NAVIGATION */
     grid-template-columns: auto auto auto auto auto;
     width: 550px;
     float: right;
-    margin: 27.5px 9%;
+    margin: 5vh 9%;
     font-size: 15px;
     column-gap: 20px;
     height: 100%;
@@ -118,13 +118,13 @@ nav /* CSS for the NAVIGATION */
 
 .dropbtn /* Style for the dropdown menu */
 {
-    background-color: var(--default-white);
+    background-color: #ffffff00;
     color: var(--default-black);
     outline:none;
     padding: 16px;
     font-size: 16px;
     border: none;
-    margin: -15px -30px 0px -10px;
+    margin: -11vh -30px 0px -10px;
 }
   
 .dropdown 
@@ -172,7 +172,7 @@ nav /* CSS for the NAVIGATION */
 section /* CSS For all the content */
 {
     width: 100%;
-    
+    margin-top: 22vh;
 }
 
 .top-banner /* CSS For the top-banner */
@@ -201,7 +201,7 @@ section /* CSS For all the content */
 .banner-text h1
 {
     color: white;
-    font-size: 50px;
+    font-size: 8vh;
     font-weight: lighter;
     animation-name: flyIn;
     animation-duration: 2s;
@@ -302,6 +302,5 @@ section /* CSS For all the content */
 {
     * /* Only for debugging, Remove when done */
     {
-      display: none;
     }
 }

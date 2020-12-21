@@ -6,7 +6,7 @@ window.onscroll = function()
   if (prevScrollpos > currentScrollPos) 
   {
     document.getElementsByTagName("HEADER")[0].style.top = "0";
-    document.getElementsByTagName("NAV")[0].style.top = "50px";
+    document.getElementsByTagName("NAV")[0].style.top = "8.6vh";
   } else {
     document.getElementsByTagName("NAV")[0].style.top = "0px"; 
     document.getElementsByTagName("SECTION")[0].style.top = "0px"; 
