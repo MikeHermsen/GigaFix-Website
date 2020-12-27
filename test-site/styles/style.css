@@ -18,6 +18,11 @@
     font-family: var(--default-font);
 }
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 header /* CSS For the HEADER */
 { 
     z-index: 999;
@@ -125,7 +130,7 @@ nav /* CSS for the NAVIGATION */
     font-size: 16px;
     border: none;
     margin: -11vh -30px 0px -10px;
-}
+}min
   
 .dropdown 
 {
@@ -298,7 +303,34 @@ section /* CSS For all the content */
     }
 }
 
-@media only screen and (max-width: 950px) /* This will prefent the page from disrubting when going under 950px */
+@media only screen and (max-height: 250px) /* This will prefent the page from disrubting when going under 950px height */
+{
+
+    nav /* CSS for the NAVIGATION */
+    {
+        transition: top 0.3s; /* Transition effect when sliding down (and up) to make it fancy */
+        height: 35px;
+        width: 100%;
+        background-color: var(--default-white);
+        position: fixed;
+        top: 25px;
+        z-index: 999;
+    }
+
+
+    header /* CSS For the HEADER */
+    { 
+        z-index: 999;
+        transition: top 0.3s; /* Transition effect when sliding down (and up) to make it fancy */
+        position: fixed; 
+        top: 0;
+        height: 25px;
+        width: 100%;
+        background-color: var(--default-light-blue);
+    }
+}
+
+@media only screen and (max-width: 950px) /* This will prefent the page from disrubting when going under 950px width */
 {
     * /* Only for debugging, Remove when done */
     {
