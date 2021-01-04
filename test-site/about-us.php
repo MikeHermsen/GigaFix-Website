@@ -21,9 +21,8 @@
     <section>
     
         <div>
-            <div class="top-banner"> 
-                <img class="pc-devices-logo" src="media/images/banner-img-3.jpeg" alt="GigaFix Homepage banner" />
-                <img class="phone-devices-logo" src="media/images/phone-banner.jpeg" alt="GigaFix Homepage banner" />
+            <div class="top-banner">
+                <img src="media/images/banner-img-3.jpeg" alt="GigaFix Homepage banner" />
                 <div class="banner-text">
                     
                     <h1>GigaFix Computer repair specialist</h1>
@@ -35,7 +34,7 @@
         </div>
 
         
-        <div class="content-containter">
+        <div class="content-containter" id="section-3">
             <!-- Create an list that will show the content of all the pages and what there is to find on the website --> 
             <div>
                 <h2>Hello world</h2>
@@ -55,7 +54,7 @@
 
         </div>
 
-        <img class="banner" src="media/images/homepage-banner.png" alt="banner placeholder">
+        <img  id="section-4" class="banner" src="media/images/homepage-banner.png" alt="banner placeholder">
 
         
         <div class="content-containter">
@@ -79,7 +78,7 @@
         </div>
 
         
-        <div class="content-containter">
+        <div class="content-containter" id="section-5">
             <!-- Create an list that will show the content of all the pages and what there is to find on the website --> 
             <div>
                 <h2>Hello world</h2>

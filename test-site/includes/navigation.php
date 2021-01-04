@@ -6,16 +6,16 @@
     $pageLinks = array(
         ['index.php', 'HOME'],
         ['about-us.php', 'OVER ONS'],
-        ['about-us.php#section-1', 'GigaFix'],
-        ['about-us.php#section-2', 'Team'],
-        ['about-us.php#section-3', 'FeedBack'],
+        ['about-us.php#section-3', 'GigaFix'],
+        ['about-us.php#section-4', 'Team'],
+        ['about-us.php#section-5', 'FeedBack'],
         ['service.php', 'SERVICE'],
         ['contact.php','CONTACT'],
         ['login.php','LOGIN']);
     ?>
     
     <nav> <!-- Shows the links of the websites + the banner page -->
-
+     
         <img class="nav-logo" height="50px" src="media/images/default/header-banner.png" alt="GigaFix banner" /> 
         
         <div class="navigation-links-container"> <!-- Page links for navigating to other pages -->
@@ -37,6 +37,11 @@
 
 
         </div>
+
+        <!-- This will create an navbar that will be showen for phone users -->
+        <span class="SideBarButton" onclick="switchNav()">&#9776;</span>
+
+        <?php include_once "side-nav.php" ?>
 
 
     </nav>

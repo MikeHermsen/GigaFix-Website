@@ -21,9 +21,8 @@
     <section>
     
         <div>
-            <div class="top-banner"> 
-                <img class="pc-devices-logo" src="media/images/banner-img-3.jpeg" alt="GigaFix Homepage banner" />
-                <img class="phone-devices-logo" src="media/images/phone-banner.jpeg" alt="GigaFix Homepage banner" />
+            <div class="top-banner">
+                <img src="media/images/banner-img-3.jpeg" alt="GigaFix Homepage banner" />
                 <div class="banner-text">
                     
                     <h1>GigaFix Computer repair specialist</h1>
