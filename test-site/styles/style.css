@@ -460,12 +460,20 @@ footer /* CSS for the FOOTER */
 
     footer
     {
-        bottom: 0;
+        display: block;
+        bottom: 0;                
+    }
+    
+    .footer-content-box
+    {
+        padding-top: 20px;
+        width: 100%;
+        background-color: var(--default-black);
     }
 
-    footer *
-    {
-        font-size: 15px;
-    }
+    
+
+    
+
 
 }
