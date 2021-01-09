@@ -456,6 +456,16 @@ footer /* CSS for the FOOTER */
         grid-template-columns: auto;
     }
 
+    .content-containter 
+    {
+        margin: 0 20px;
+    }
+
+    .content-containter div p
+    {
+        margin: 30px 0px;
+    }
+
     /* CSS FOOTER */
 
     footer
