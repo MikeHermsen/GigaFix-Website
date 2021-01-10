@@ -26,9 +26,6 @@ Because there is still work in progress there won't be anything in the main fold
 This project is created by:
 * Mike Hermsen
 
-Contributors:
-* Igor de Beijer
-
 # Contact
 Contact me through email:
 MikeHermsenPrive@Gmail.com
