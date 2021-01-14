@@ -6,7 +6,7 @@
     --default-white: #fff;
     --default-black: #282829;
     --default-debug: Red;
-    --default-font: "media/fonts/roboto/RobotoCondensed-Regular.ttf";
+    --default-font: "Roboto", sans-serif;
 }
 
 * /* These settings will be aplied over the full page */

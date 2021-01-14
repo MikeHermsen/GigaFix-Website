@@ -26,7 +26,7 @@
                 <img class="phone-devices-logo" src="media/images/banners/index/homepage-banner-0-phone.jpeg" alt="GigaFix Homepage banner" />
                 <div class="banner-text">
                     
-                    <h1>GigaFix Computer repair specialist</h1>
+                    <h1><strong>GigaFix Computer repair specialist<strong></h1>
                     <a href="#section-2" class="fa fa-arrow-down"></a>
                     <span id="section-2"></span>
 
