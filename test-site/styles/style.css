@@ -218,6 +218,11 @@ section /* CSS For all the content */
     width: 100%;
 }
 
+.quick-fix-for-deployment
+{
+    padding-top: 120px;
+}
+
 .top-banner /* CSS For the top-banner */
 {
     position: relative;
@@ -291,6 +296,44 @@ section /* CSS For all the content */
 {
     margin: 20px 0;
 }
+
+form
+{
+    color: var(--default-black);
+
+    text-align: left;
+    width: 80%;
+    margin: 10px 10%;
+}
+
+form input
+{
+    padding: 0 -1px;
+    font-size: 20px;
+    margin: 2px 0;
+    border-radius: 5px;
+    border: 1px solid var(--default-black);
+    width: 100%;
+}
+
+form textarea
+{
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid var(--default-black);
+    resize: none;
+    width: 100%;
+}
+
+.button-sumbit-forum
+{
+    margin: 10px 1%;
+    width: 48%;
+    border: none;
+    background-color: var(--default-green-blue);
+    color: White;
+}
+
 
 .banner 
 {

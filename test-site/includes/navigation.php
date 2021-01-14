@@ -6,7 +6,7 @@
     $pageLinks = array(
         ['index.php', 'HOME'],
         ['about-us.php', 'OVER ONS'],
-        ['about-us.php#section-3', 'GigaFix'],
+        ['about-us.php#section-1', 'GigaFix'],
         ['about-us.php#section-4', 'Team'],
         ['about-us.php#section-5', 'FeedBack'],
         ['service.php', 'SERVICE'],
