@@ -36,7 +36,9 @@
             </form>
             
             <div>
+
                 <h1>Contact</h1>
+                
                 <!-- This will show when the form was successfully sended -->
                 <?php
                     $username = $_GET['username'];
@@ -45,8 +47,10 @@
                         echo '<p>' . $username . ', Jouw vraag is met success verstuurd!<br>';
                     }
 
-                    echo '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat et eum laudantium aperiam eligendi itaque aspernatur dolorum porro at </p>';
+                    echo '<p>U kunt ook contact met ons opnemen via Google, Mail, Facebook, Messages, Whatsapp, Instagram en bellen.</p>';
+                
                 ?>
+                
             </div>
 
         </div>

@@ -3,18 +3,22 @@
         
         <div class="footer-content-box">
             <h3>Voorwaardes</h3>
-            <a href="#" class="glowup">Algemeen</a>
-            <a href="#" class="glowup">Reparatie</a>
-            <a href="#" class="glowup">Reparatie</a>
-            <a href="#" class="glowup">Garantie</a>
+            <a href="media/voorwaardes/404.txt" class="glowup">Algemeen</a>
+            <a href="media/voorwaardes/404.txt" class="glowup">Reparatie</a>
+            <a href="media/voorwaardes/404.txt" class="glowup">Reparatie</a>
+            <a href="media/voorwaardes/404.txt" class="glowup">Garantie</a>
         </div>
 
         <div class="footer-content-box">
             <h3>Contact us</h3>
-            <a href="#" class="glowup">Google</a>
-            <a href="#" class="glowup">Whatsapp</a>
-            <a href="#" class="glowup">Instagram</a>
-            <a href="#" class="glowup">FaceBook</a>
+            
+            <a title="GigaFix-Nijmegen" href="https://g.page/gigafix-nijmegen/"                     class="glowup">Google</a>
+            <a title="nijmegen.gigafix" href="https://www.instagram.com/nijmegen.gigafix/"          class="glowup">Instagram</a>
+            <a title="GigaFix" href="https://www.facebook.com/giga.fix.98/"                         class="glowup">FaceBook</a>
+            <a title="+31 6 168-68-565" href="tel:0616868565"                                       class="glowup">Telefoon</a>
+            <a title="+31 6 168-68-565" href="https://wa.me/31616868565"                            class="glowup">Whatsapp</a>
+            <a title="Contact.GigaFix@Gmail.com" href="mailto: Contact.GigaFix+Repair@Gmail.com"    class="glowup">Mail</a>
+             
         </div>
 
         <div class="footer-content-box">
