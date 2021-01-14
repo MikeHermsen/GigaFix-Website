@@ -15,11 +15,11 @@
     padding: 0;
     list-style: none;
     text-decoration: none; 
-    font-family: var(--default-font);
 }
 
 html 
 {
+    font-family: var(--default-font);
     scroll-behavior: smooth;
 }
 
