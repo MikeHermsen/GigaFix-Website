@@ -36,9 +36,9 @@
             </form>
             
             <div>
-
-                <h1>Contact</h1>
                 
+                <h2>Contact</h2>
+
                 <!-- This will show when the form was successfully sended -->
                 <?php
                     $username = $_GET['username'];
@@ -47,10 +47,10 @@
                         echo '<p>' . $username . ', Jouw vraag is met success verstuurd!<br>';
                     }
 
-                    echo '<p>U kunt ook contact met ons opnemen via Google, Mail, Facebook, Messages, Whatsapp, Instagram en bellen.</p>';
-                
+                    echo '<p> <span style="color:Red;"> Helaas werkt de forum nog niet </span>.U kunt wel contact met ons opnemen via Google, Mail, Facebook, Messages, Whatsapp, Instagram en bellen.</p>';
+
                 ?>
-                
+
             </div>
 
         </div>
@@ -58,21 +58,22 @@
         <div class="content-containter">
 
             <div>
-                <h2>Hello world</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <h2>Nog geen Reactie</h2>
+                <p>Wij proberen onze berichten altijd bij te houden, Mocht u geen reactie krijgen kunt u proberen te bellen naar ons bedrijfs-nummer</p>
             </div>
 
             <div>
                 <h2>Hello world</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <p>Lorum dwaowiajdaw mdwamdjaw idwaoidjowaindawod nU word in ons systeem gezet op het moment waarneer wij u Laptop/Computer als reparatie inemen.</p>
             
             </div>
             
         </div>
 
         <!-- contact our team -->
-        <img  class="phone-devices-logo banner" src="media/images/banners/contact/contact-us-banner-phone.png" alt="banner placeholder" />
-        <img  class="pc-devices-logo banner" src="media/images/banners/contact/contact-us-banner-pc.png" alt="banner placeholder" />
+        <img  class="phone-devices-logo banner"     src="media/images/banners/contact/contact-us/contact-us-banner-phone.jpg" alt="banner placeholder" />
+        <img  class="tablet-devices-logo banner"    src="media/images/banners/contact/contact-us/contact-us-banner-tablet.jpg" alt="banner placeholder" />
+        <img  class="pc-devices-logo banner"        src="media/images/banners/contact/contact-us/contact-us-banner-pc.jpg" alt="banner placeholder" />
         
     <section>
 

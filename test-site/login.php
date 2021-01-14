@@ -33,15 +33,16 @@
             </form>
                     
             <div>
-                <h2>Hello world</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <h2>Coming soon</h2>
+                <p>Via hier kunt u inloggen en uw reparatie status zien. Dit word gedaan via een beveiligte en veilig verbinding met een van onze servers.</p>
             </div>
 
         </div>
               
         <!-- Security banner -->
-        <img  class="phone-devices-logo banner" src="media/images/banners/login/security-banner-phone.jpeg" alt="Security banner" />
-        <img  class="pc-devices-logo banner" src="media/images/banners/login/security-banner-pc.jpeg" alt="Security banner" />
+        <img  class="phone-devices-logo banner"     src="media/images/banners/login/security/security-banner-phone.jpeg" alt="Security banner" />
+        <img  class="tablet-devices-logo banner"    src="media/images/banners/login/security/security-banner-tablet.jpeg" alt="Security banner" />
+        <img  class="pc-devices-logo banner"        src="media/images/banners/login/security/security-banner-pc.jpeg" alt="Security banner" />
         
     <section>
 

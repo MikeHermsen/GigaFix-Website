@@ -28,12 +28,12 @@
 
             <div>
                 <h2>Ons team</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <p>Ons team bestaat uit studenten die u willen helpen met uw Computer/Laptop probleem, Hierbij zorgen wij voor een goede service met een lage prijs. Vraag nu het factuur op via Contact.</p>
             </div>
 
             <div>
                 <h2>Samenwerking</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <p>Door meerderen studenten rondom de regio zijn wij aan het uitbreiden om een groter gebied te kunnen helpen met hun computer gerelateerde vragen.</p>
             
             </div>
 
@@ -42,33 +42,35 @@
         <div id="section-4"></div>
         
         <!-- Team Banner -->
-        <img  class="phone-devices-logo banner" src="media/images/banners/about-us/team-banner-phone.jpeg" alt="Our team" />
-        <img  class="pc-devices-logo banner" src="media/images/banners/about-us/team-banner-pc.jpeg" alt="Our team" />
+        <img  class="phone-devices-logo banner"     src="media/images/banners/about-us/team/team-banner-phone.jpeg" alt="Our team" />
+        <img  class="tablet-devices-logo banner"    src="media/images/banners/about-us/team/team-banner-tablet.jpeg" alt="Our team" />
+        <img  class="pc-devices-logo banner"        src="media/images/banners/about-us/team/team-banner-pc.jpeg" alt="Our team" />
         
         <div class="content-containter" id="section-5">
 
             <div>
                 <h2>Mike Hermsen</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe numquam, tenetur, in delectus a quisquam eaque praesentium ad totam consequuntur eos error porro quos quasi asperiores? Vel similique illum odio!</p>
             </div>
 
             <div>
                 <h2>Igor de Beijer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, <a href="https://igordebeijer.com/">Igordebeijer.com</a></p>
             
             </div>
             
             <div>
-                <h2>Lorum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <h2>Feedback</h2>
+                <p>Laat ons u ervaring weten door die via google te delen, Wij stellen dit op prijs om daardoor beter te worden en beteren service te verlenen.</p>
             </div>
 
         </div>
 
         <!-- Feedback Banner -->
-        <img  class="phone-devices-logo banner" src="media/images/banners/about-us/feedback-banner-phone.jpeg" alt="Feedback banner" />
-        <img  class="pc-devices-logo banner" src="media/images/banners/about-us/feedback-banner-pc.jpeg" alt="banner placeholder" />
-
+        <img  class="phone-devices-logo banner"     src="media/images/banners/about-us/feedback/feedback-banner-phone.jpeg" alt="Feedback banner" />
+        <img  class="tablet-devices-logo banner"    src="media/images/banners/about-us/feedback/feedback-banner-tablet.jpeg" alt="banner placeholder" />
+        <img  class="pc-devices-logo banner"        src="media/images/banners/about-us/feedback/feedback-banner-pc.jpeg" alt="banner placeholder" />
+        
     <section>
 
 

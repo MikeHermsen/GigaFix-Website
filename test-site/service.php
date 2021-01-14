@@ -28,8 +28,8 @@
         <div class="content-containter">
 
             <div>
-                <h2>Hello world</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam quas tempore sunt. Repellendus ducimus laborum illum totam dolore. Temporibus explicabo voluptates consectetur iure dolor aperiam sit, ducimus magnam quaerat.</p>
+                <h2>Reparaties</h2>
+                <p>Hulp bij reparatie van Computer & Laptop, Computerinstallatie, Trage Computer/Laptop, Upgrade Windows 10, OS Install van windows & Linux en Software-installatie.</p>
             </div>
 
             <div>
@@ -46,9 +46,10 @@
         </div>
       
         <!-- Service banner -->
-        <img  class="phone-devices-logo banner" src="media/images/banners/service/service-banner-phone.jpeg" alt="banner placeholder" />
-        <img  class="pc-devices-logo banner" src="media/images/banners/service/service-banner-pc.png" alt="banner placeholder" />
-            
+        <img  class="phone-devices-logo banner" src="media/images/banners/service/service/service-banner-phone.jpeg" alt="banner placeholder" />
+        <img  class="tablet-devices-logo banner" src="media/images/banners/service/service/service-banner-tablet.jpeg" alt="banner placeholder" />
+        <img  class="pc-devices-logo banner" src="media/images/banners/service/service/service-banner-pc.jpeg" alt="banner placeholder" />
+        
     <section>
 
 

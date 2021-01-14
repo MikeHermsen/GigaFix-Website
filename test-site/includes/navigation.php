@@ -16,7 +16,7 @@
     
     <nav> <!-- Shows the links of the websites + the banner page -->
      
-        <img class="nav-logo" height="50px" src="media/images/default/header-banner.png" alt="GigaFix banner" /> 
+        <!-- Don't use this yet <img class="nav-logo" height="50px" src="media/images/default/header-banner.png" alt="GigaFix banner" />  -->
         
         <div class="navigation-links-container"> <!-- Page links for navigating to other pages -->
 

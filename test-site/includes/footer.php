@@ -9,6 +9,29 @@
             <a href="media/voorwaardes/404.txt" class="glowup">Garantie</a>
         </div>
 
+
+        <div class="footer-content-box">
+            <h3>Pages</h3>
+                
+            <?php
+            $i = 0;
+                
+            $pageLinks = array(
+                ['index.php', 'Home'],
+                ['about-us.php', 'Over ons'],
+                ['service.php', 'Service'],
+                ['contact.php','Contact'],
+                ['login.php','Login']);
+            ?>
+
+            <a href="<?php echo $pageLinks[$i][0] ?>" class="glowup"> <?php echo $pageLinks[$i][1]; $i++; ?></a>
+            <a href="<?php echo $pageLinks[$i][0] ?>" class="glowup"> <?php echo $pageLinks[$i][1]; $i++; ?></a>
+            <a href="<?php echo $pageLinks[$i][0] ?>" class="glowup"> <?php echo $pageLinks[$i][1]; $i++; ?></a>
+            <a href="<?php echo $pageLinks[$i][0] ?>" class="glowup"> <?php echo $pageLinks[$i][1]; $i++; ?></a>
+            <a href="<?php echo $pageLinks[$i][0] ?>" class="glowup"> <?php echo $pageLinks[$i][1]; $i++; ?></a>
+
+        </div>
+
         <div class="footer-content-box">
             <h3>Contact us</h3>
             

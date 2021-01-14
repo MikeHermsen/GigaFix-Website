@@ -15,6 +15,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none; 
+    font-weight: 400;
 }
 
 html 
@@ -76,13 +77,23 @@ nav /* CSS for the NAVIGATION */
 
 .nav-logo /* logo in the navigation */
 {
-    display: none;
     margin: 12px 0 0 5%;
     height: 100%;
 }
 
 .pc-devices-logo 
-{ display: block; }
+{ 
+    object-fit: cover;
+    display: block; 
+    height: 337px;
+}
+
+.tablet-devices-logo
+{ 
+    object-fit: cover;
+    height: 337px;
+    display: none;
+}
 
 .phone-devices-logo
 { display: none; }
@@ -214,7 +225,6 @@ nav /* CSS for the NAVIGATION */
 
 section /* CSS For all the content */
 {
-    margin-top: 20px;
     width: 100%;
 }
 
@@ -229,6 +239,7 @@ section /* CSS For all the content */
     text-align: center;
     width: 100%;
     height: 600px;
+    margin-top: 40px;
 }
 
 .top-banner img
@@ -253,6 +264,7 @@ section /* CSS For all the content */
     font-weight: lighter;
     animation-name: flyIn;
     animation-duration: 2s;
+    text-shadow: 1px 0 0 var(--default-black), 0 -1px 0 var(--default-black), 0 1px 0 var(--default-black), -1px 0 0 var(--default-black);
 }
 
 
@@ -300,29 +312,30 @@ section /* CSS For all the content */
 form
 {
     color: var(--default-black);
-
     text-align: left;
-    width: 80%;
+    width: 90%;
     margin: 10px 10%;
 }
 
 form input
 {
-    padding: 0 -1px;
+    padding: 0 10px;
     font-size: 20px;
     margin: 2px 0;
     border-radius: 5px;
     border: 1px solid var(--default-black);
-    width: 100%;
+    width: 96%;
 }
 
 form textarea
 {
+    padding: 0 10px;
+    margin-top: 2.5px;
     border-radius: 5px;
     font-size: 20px;
     border: 1px solid var(--default-black);
     resize: none;
-    width: 100%;
+    width: 96%;
 }
 
 .button-sumbit-forum
@@ -342,7 +355,7 @@ form textarea
 
 footer /* CSS for the FOOTER */
 {
-    padding-top: 25px;
+    padding: 30px 0;
     text-align: center;
     width: 100%;
     height: 175px;
@@ -350,19 +363,178 @@ footer /* CSS for the FOOTER */
     color: white;
     text-decoration: none;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 
 .footer-content-box 
 {
     display: grid;
     grid-template-rows: auto auto auto;
+    text-align: left;
+    margin: 0 50px;
 }
 
 .footer-content-box a
 {
     text-decoration: none;
     color: var(--default-white);
+}
+
+h3
+{
+    width: 100%;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1050px) /* This will prefent the page from disrubting when going under 950px width */
+{
+
+    header /* CSS For the HEADER */
+    { 
+        height: 50px;
+    }
+
+    .fa /* Styling the icons so they don't look terrible */
+    {
+        font-size: 15px; 
+        margin: 2.6vh 0.5vh; 
+        text-align: center; 
+    }
+    
+    .phone-icon /* Changing the style of the phone icon to place it on the right position */
+    {
+        margin: 2.5vh 5% 0 0; 
+    }
+
+    .media-icon-container
+    {
+        width: 150px; 
+        margin: 0 0 0 1%; 
+    }
+
+    nav /* CSS for the NAVIGATION */
+    {
+        height: 90px;
+    }
+
+    .nav-logo /* logo in the navigation */
+    {
+        display: none;
+        margin: 12px 0 0 2.5%;
+        height: 60px;
+    }
+
+    .navigation-links-container
+    {
+        display: none;
+    }
+
+    .SideBarButton 
+    {
+        display: block;
+    }
+
+    /* CSS CONTENT */
+    
+
+    .quick-fix-for-deployment
+    {
+        padding-top: 180px;
+    }
+
+    .pc-devices-logo 
+    { display: none; }
+
+    .tablet-devices-logo 
+    { display: block; }
+
+    .phone-devices-logo
+    { display: none; }
+
+
+    .content-containter 
+    {
+        grid-template-columns: auto auto;
+        margin: 0 20px;
+    }
+
+    .content-containter div p
+    {
+        margin: 30px 0px;
+    }
+
+    form
+    {
+        text-align: center;
+        margin: 0 10px;
+    }
+
+
+    /* CSS FOOTER */
+
+    footer
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        bottom: 0;                
+    }
+    
+    h3
+    {
+        width: None;
+    }
+
+    .footer-content-box 
+    {
+        text-align: center;
+        margin: 0;
+        padding: 30px 0;
+        width: 100%;
+        background-color: var(--default-black);
+    }
+
+
+}
+
+
+@media only screen and (max-width: 450px) /* This will prefent the page from disrubting when going under 950px width */
+{
+    /* CSS CONTENT */
+
+    .pc-devices-logo 
+    { display: none; }
+
+    .tablet-devices-logo 
+    { display: none; }
+
+    .phone-devices-logo
+    { display: block; }
+
+    .quick-fix-for-deployment
+    {
+        padding-top: 160px;
+    }
+
+
+    .content-containter 
+    {
+        grid-template-columns: auto;
+    }
+
+    /* CSS FOOTER */
+
+    footer
+    {
+        display: block;
+        bottom: 0;                
+    }
+
+
+    .footer-content-box 
+    {
+        font-size: 20px;
+    }
+    
 }
 
 /* ALL KEY FRAMES */
@@ -437,96 +609,3 @@ footer /* CSS for the FOOTER */
     }
 }
 
-
-@media only screen and (max-width: 950px) /* This will prefent the page from disrubting when going under 950px width */
-{
-
-    header /* CSS For the HEADER */
-    { 
-        height: 50px;
-    }
-
-    .fa /* Styling the icons so they don't look terrible */
-    {
-        font-size: 15px; 
-        margin: 2.6vh 0.5vh; 
-        text-align: center; 
-    }
-    
-    .phone-icon /* Changing the style of the phone icon to place it on the right position */
-    {
-        margin: 2.5vh 5% 0 0; 
-    }
-
-    .pc-devices-logo 
-    { display: none; }
-
-    .phone-devices-logo
-    { display: block; }
-
-    .media-icon-container
-    {
-        width: 150px; 
-        margin: 0 0 0 1%; 
-    }
-
-    nav /* CSS for the NAVIGATION */
-    {
-        height: 90px;
-    }
-
-    .nav-logo /* logo in the navigation */
-    {
-        display: none;
-        margin: 12px 0 0 2.5%;
-        height: 60px;
-    }
-
-    .navigation-links-container
-    {
-        display: none;
-    }
-
-    .SideBarButton 
-    {
-        display: block;
-    }
-
-    /* CSS CONTENT */
-    
-    .content-containter 
-    {
-        grid-template-columns: auto;
-    }
-
-    .content-containter 
-    {
-        margin: 0 20px;
-    }
-
-    .content-containter div p
-    {
-        margin: 30px 0px;
-    }
-
-    /* CSS FOOTER */
-
-    footer
-    {
-        display: block;
-        bottom: 0;                
-    }
-    
-    .footer-content-box
-    {
-        padding-top: 20px;
-        width: 100%;
-        background-color: var(--default-black);
-    }
-
-    
-
-    
-
-
-}
